@@ -20,12 +20,6 @@ ARR_ICON=( "${ARR_ICON[@]}" "wifi" "wifi-0" "wifi-25"  "wifi-50" "wifi-75" )
 # loop to install icons, masks and alpha masks
 for ICON in "${ARR_ICON[@]}"
 do
-	# download document type icon
-	wget "https://raw.githubusercontent.com/NicolasBernaerts/icon/master/openhab/${ICON}.png"
-  
-  	# copy to 
-	convert "${ICON}.png" -resize 64x64 "${ROOT_ICON}/${ICON}.png"
-  
-	# remove downloaded file
-	rm "${ICON}.png"
+	# download icon and convert it to 64x64
+	wget -O - "https://raw.githubusercontent.com/NicolasBernaerts/icon/master/openhab/${ICON}.png" | convert - -resize 64x64 "${ROOT_ICON}/${ICON}.png"
 done
