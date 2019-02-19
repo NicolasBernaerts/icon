@@ -3,7 +3,7 @@
 # All icons are downloaded from this Github repository and resized to 64x64
 
 # install imagemagick used to resize
-sudo apt -y install imagemagick
+apt -y install imagemagick
 
 # create icons ressource directory
 ROOT_ICON="/etc/openhab2/icons/classic"
@@ -24,7 +24,7 @@ do
 	wget "https://raw.githubusercontent.com/NicolasBernaerts/icon/master/openhab/${ICON}.png"
   
   	# copy to 
-	sudo convert "${ICON}.png" -resize 64x64 "${ROOT_ICON}/${ICON}.png"
+	convert "${ICON}.png" -resize 64x64 "${ROOT_ICON}/${ICON}.png"
   
 	# remove downloaded file
 	rm "${ICON}.png"
