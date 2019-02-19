@@ -23,9 +23,9 @@ do
 	# download document type icon
 	wget "https://raw.githubusercontent.com/NicolasBernaerts/icon/master/openhab/${ICON}.png"
   
-  # copy to 
-  sudo cp "${ICON}.png" "${ROOT_ICON}/${ICON}.png"
+  	# copy to 
+	sudo convert "${ICON}.png" -resize 64x64 "${ROOT_ICON}/${ICON}.png"
   
-  # remove downloaded file
-  rm "${ICON}.png"
+	# remove downloaded file
+	rm "${ICON}.png"
 done
