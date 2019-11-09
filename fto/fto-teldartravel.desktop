@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Teldar Travel
+Comment=Centrale de réservation Teldar Travel
+Exec=firefox ~/Lecteur_Z/PrestatairesFrance/CentralesReservation/TeldarTravel.html
+Icon=teldartravel.png
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;WebBrowser;
+StartupNotify=false
