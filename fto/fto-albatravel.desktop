@@ -1,0 +1,10 @@
+    [Desktop Entry]
+    Version=1.0
+    Name=Alba Travel
+    Comment=Centrale de réservation Alba Travel
+    Exec=firefox "http://www.albatravelgroup.biz/"
+    Icon=albatravel.png
+    Terminal=false
+    Type=Application
+    Categories=GNOME;GTK;Network;WebBrowser;
+    StartupNotify=false
