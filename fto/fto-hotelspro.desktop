@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Hotels Pro
+Comment=Centrale de réservation Hotels Pro
+Exec=firefox "http://fr.hotelspro.com/agentindex.php"
+Icon=hotelspro.png
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;WebBrowser;
+StartupNotify=false
