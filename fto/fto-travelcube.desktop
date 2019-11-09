@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Travel Cube
+Comment=Centrale de réservation Travel Cube
+Exec=firefox "http://www.travelcube.com/uk/Enter.jsp?siteid=rbsfr&lang=F"
+Icon=travelcube.png
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;WebBrowser;
+StartupNotify=false
