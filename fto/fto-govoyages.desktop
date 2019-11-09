@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Go Voyages
+Comment=Centrale de réservation Go Voyages
+Exec=firefox "http://www.goagences.com/"
+Icon=govoyages.png
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;WebBrowser;
+StartupNotify=false
